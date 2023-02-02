@@ -1,3 +1,3 @@
 # React Fitness Application
 
-!(/src/assets/Capture.jpg)
+![](/src/assets/Capture.jpg)
