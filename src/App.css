@@ -119,6 +119,9 @@ body::-webkit-scrollbar-thumb {
   transform: translate3d(0, 0, 0);
 } */
 
+.shopitems{
+  bottom: 0;
+}
 .exercise-card {
   width: 400px;
   height: 445px;
@@ -127,13 +130,14 @@ body::-webkit-scrollbar-thumb {
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   text-decoration: none;
-  
+  margin-bottom: 23px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   padding-bottom: 10px;
   transform: scale(1, 1);
   transition: 0.35s all ease-in-out;
+  
 }
 
 .exercise-card img {
@@ -143,6 +147,7 @@ body::-webkit-scrollbar-thumb {
 .exercise-card:hover{
   box-shadow:  0 5px 10px #f8f8f8!important;
   transform: scale(1.06, 1.06);
+  
   border-top: none;
 }
 

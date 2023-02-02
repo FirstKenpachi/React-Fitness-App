@@ -1,7 +1,7 @@
 import React from 'react'
 import {Box,Stack,Typography} from '@mui/material';
 
-import ShopCard from '../components/ExerciseCard';
+import ShopCard from '../components/ShopCard';
 import { shopArray } from '../utils/fetch';
 
 
