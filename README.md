@@ -7,16 +7,16 @@ This website lists all the exercises available..can selectively sort out exercis
 React JS,Material UI, Javascript, HTML,CSS
 
 ## Main Page
-![](/src/assets/1.JPG)
-![](/src/assets/2.JPG)
-![](/src/assets/3.JPG)
-![](/src/assets/4.JPG)
-![](/src/assets/5.JPG)
-![](/src/assets/6.JPG)
-![](/src/assets/7.JPG)
-![](/src/assets/8.JPG)
-![](/src/assets/9.JPG)
-![](/src/assets/10.JPG)
-![](/src/assets/11.JPG)
+![](/src/assets/1.jpg)
+![](/src/assets/2.jpg)
+![](/src/assets/3.jpg)
+![](/src/assets/4.jpg)
+![](/src/assets/5.jpg)
+![](/src/assets/6.jpg)
+![](/src/assets/7.jpg)
+![](/src/assets/8.jpg)
+![](/src/assets/9.jpg)
+![](/src/assets/10.jpg)
+![](/src/assets/11.jpg)
 
 
