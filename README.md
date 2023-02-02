@@ -6,4 +6,5 @@ This website lists all the exercises available..can selectively sort out exercis
 ## Technologies Used
 React JS,Material UI, Javascript, HTML,CSS
 
+## Main Page
 ![](/src/assets/Capture.JPG)
