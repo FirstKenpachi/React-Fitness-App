@@ -1,3 +1,13 @@
+import bag from '../assets/shopimage/bag.jfif';
+import tracker from '../assets/shopimage/tracker.png';
+import dumbbell from '../assets/shopimage/dumbbell.jpg';
+import protein from '../assets/shopimage/protein.jpg';
+import socks from '../assets/shopimage/socks.jfif';
+import ropes from '../assets/shopimage/ropes.jfif';
+// import bag from '../assets/shopimage/bag.jfif';
+// import bag from '../assets/shopimage/bag.jfif';
+// import bag from '../assets/shopimage/bag.jfif';
+
 const exercisearray=[
     {
         "bodyPart": "waist",
@@ -1016,4 +1026,51 @@ const secondArray=[
     
 ]
 
-export  {exercisearray,secondArray} ;
+const shopArray=[
+    {
+        id:1,
+        name:'Dumbbell',
+        img:bag,
+        cost:'575 Rupees'
+
+    },
+    {
+        id:2,
+        name:'tracker',
+        img:tracker,
+        cost:'575 Rupees'
+        
+
+    },
+    {
+        id:3,
+        name:'Dumbbell',
+        img:dumbbell,
+        cost:'575 Rupees'
+
+    },
+    {
+        id:4,
+        name:'Protein',
+        img:protein,
+        cost:'575 Rupees'
+
+    },
+    {
+        id:5,
+        name:'socks',
+        img:socks,
+        cost:'575 Rupees'
+
+    },
+    {
+        id:6,
+        name:'ropes',
+        img:ropes,
+        cost:'575 Rupees'
+
+    }
+
+]
+
+export  {exercisearray,secondArray,shopArray} ;

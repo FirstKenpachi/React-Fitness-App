@@ -6,10 +6,10 @@ const ExerciseCard = ({ exercise }) => (
   <Link className="exercise-card app__bg" to={`/exercise/${exercise.id}`}>
     <img src={exercise.gifUrl} style={{ background:'#545454',opacity:'0.90',borderBottomRightRadius:'2%',borderBottomLeftRadius:'2%' }}alt={exercise.name} loading="lazy" />
     <Stack direction="row">
-      <Button sx={{ ml: '21px', color: 'black', background: '#FF7800', fontSize: '14px', borderRadius: '20px', textTransform: 'capitalize' }}>
+      <Button className='exer_button' sx={{ ml: '21px', color: 'black', background: '#FF7800', fontSize: '14px', borderRadius: '20px', textTransform: 'capitalize' }}>
         {exercise.bodyPart}
       </Button>
-      <Button sx={{ ml: '21px', color: 'black', background: '#FCC757', fontSize: '14px', borderRadius: '20px', textTransform: 'capitalize' }}>
+      <Button className='exer_button' sx={{ ml: '21px', color: 'black', background: '#FCC757', fontSize: '14px', borderRadius: '20px', textTransform: 'capitalize' }}>
         {exercise.target}
       </Button>
     </Stack>

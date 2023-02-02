@@ -11,7 +11,7 @@ import Loader from './Loader';
 const Exercises = ({ exercises, setExercises, bodyPart }) => {
   const [currentPage, setCurrentPage] = useState(1);
   const [exercisesPerPage] = useState(6);
-  console.log('panchi')
+  
 
   useEffect(() => {
     console.log('exercise')
@@ -57,10 +57,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
           <ExerciseCard key={idx} exercise={exercise} />
         ))}
       </Stack>
-      {console.log(exercises)}
-      {console.log(exercisesPerPage)}
-      {console.log(exercises.length)}
-      {console.log(currentPage)}
+    
       
       
       <Stack sx={{mt: { lg: '114px', xs: '70px' } }} alignItems="center">
@@ -73,7 +70,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
             
             className='paginatebg'
             variant="text" 
-            color="primary"
+            // color="primary"
             
             shape="rounded"
             

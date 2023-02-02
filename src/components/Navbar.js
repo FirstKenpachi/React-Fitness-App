@@ -18,6 +18,7 @@ const Navbar = () => (
     >
       <Link  to="/" style={{ textDecoration: 'none', color: 'white', borderBottom: '3px solid #FF2625',fontFamily:'Kanit' }}>Home</Link>
       <a href="#exercises" style={{ textDecoration: 'none', color: 'white' ,borderBottom: '3px solid #FF2625',fontFamily:'Kanit' }}>Exercises</a>
+      <a href="shop" style={{ textDecoration: 'none', color: 'white' ,borderBottom: '3px solid #FF2625',fontFamily:'Kanit' }}>Shop</a>
     </Stack>
   </Stack>
 );
